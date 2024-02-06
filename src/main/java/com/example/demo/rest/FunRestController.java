@@ -8,6 +8,7 @@ import java.util.*;
 @RestController
 @RequestMapping("/")
 public class FunRestController {
+    //inserimento parte autenticazione
     private final String filename = "/Users/mattiaartioli/Desktop/UserFile.txt";
 
     public static NavigableMap<String, String> fileToMap (String filename) throws IOException {
