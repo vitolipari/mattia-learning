@@ -22,6 +22,7 @@ public class FunRestController {
                 userMap.put(kv[0],kv[1]);
             }
         }
+
         reader.close();
         return userMap;
     }
