@@ -14,7 +14,7 @@ public class FunRestController {
     public static NavigableMap<String, String> fileToMap (String filename) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(filename));
         String userLine;
-        NavigableMap <String,String> userMap = new TreeMap<>();
+        TreeMap<String, String> userMap = new TreeMap<>();
         while ((userLine = reader.readLine()) != null) {
             String[] users = userLine.split(";");
             for(String user : users) {
