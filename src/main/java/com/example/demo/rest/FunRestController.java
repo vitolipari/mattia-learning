@@ -28,7 +28,7 @@ public class FunRestController {
     public static String fileToString(String filePath) throws Exception{
         String input;
         Scanner sc = new Scanner(new File(filePath));
-        StringBuffer sb = new StringBuffer();
+        StringBuilder sb = new StringBuilder();
         while (sc.hasNextLine()) {
             input = sc.nextLine();
             sb.append(input);
