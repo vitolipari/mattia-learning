@@ -9,7 +9,7 @@ import java.util.*;
 @RequestMapping("/")
 public class FunRestController {
     //inserimento parte autenticazione
-    private final String filename = "/Users/xxx/Desktop/UserFile.txt";
+    private final String filename = "/Users/kkk/Desktop/UserFile.txt";
 
     public static NavigableMap<String, String> fileToMap (String filename) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(filename));
